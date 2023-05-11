@@ -48,7 +48,6 @@ const celebrationWindow = document.createElement('div');
 
 const updateCountdown = setInterval(() => {
     const countdownDate = (new Date('May 15, 2023 00:00:00'));
-    // const countdownDate = (new Date('Jan 19, 2023 11:25:10'));
 
     let now = new Date().getTime();
     const distance = countdownDate - now;
@@ -72,6 +71,7 @@ const updateCountdown = setInterval(() => {
                 console.log('One day closer...')
                 if (pDays.textContent.split(' ')[0] <= 00) {
                     alert('AWWW YEEEEAAAHHH');
+                    window.open('https://youtu.be/5qm8PH4xAss?t=39');
 
 
 
