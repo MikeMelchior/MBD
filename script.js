@@ -73,10 +73,6 @@ const updateCountdown = setInterval(() => {
                     alert('AWWW YEEEEAAAHHH');
                     window.open('https://youtu.be/5qm8PH4xAss?t=39');
 
-
-
-
-
                 }
             }
         } 
